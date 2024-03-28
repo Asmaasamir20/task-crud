@@ -1,0 +1,93 @@
+.contact {
+  /* height: 140vh; */
+  background-image: url(/public/images/bg.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.container-Contact {
+  border: solid 1px #fff;
+  border-radius: 25px;
+}
+
+.btn-delete,
+.btn-delete:hover {
+  background-color: #fff;
+  transition: 0.5s;
+}
+.btn-delete:hover {
+  box-shadow: 0px 0px 6px 0.1rem rgba(230, 223, 223, 1);
+}
+.btn-delete:hover i {
+  color: rgb(213, 3, 3) !important;
+}
+.btn-delete i {
+  color: rgba(236, 27, 27, 1);
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.btn-update {
+  background-color: #fff;
+  transition: 0.5s;
+}
+.btn-update:hover {
+  background-color: #fff;
+  box-shadow: 0px 0px 6px 0.1rem rgba(230, 223, 223, 1);
+}
+.btn-update:hover i {
+  color: rgb(7, 158, 223);
+}
+.btn-update i {
+  color: rgba(27, 176, 240, 1);
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.data h5 {
+  color: #fff;
+  font-weight: 400;
+}
+.brdr {
+  height: 1.5px;
+  background-color: #fff;
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
+.link {
+  text-decoration: none;
+}
+.btn-angle {
+  border: none !important;
+  color: #fff !important;
+}
+
+.modal-content {
+  background-color: #101010;
+}
+.modalbg {
+  background-color: #101010;
+}
+.modal-title {
+  margin: auto;
+  color: #fff;
+}
+/*---- x small --- */
+@media all and (max-width: 575px) {
+  .contact {
+    background-size: cover;
+  }
+
+  .container-Contact {
+    border: solid 1px #fff;
+    border-radius: 25px;
+  }
+  .data h5 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 15px;
+  }
+}
