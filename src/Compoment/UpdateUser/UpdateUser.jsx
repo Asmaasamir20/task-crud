@@ -28,7 +28,7 @@ export default function UpdateUser() {
       .catch((error) => {
         console.error('Error fetching user data:', error);
       });
-  }, [id]);
+  }, [formik,id]);
 
   const validationSchema = Yup.object({
     firstName: Yup.string().min(2).max(10).required(),
