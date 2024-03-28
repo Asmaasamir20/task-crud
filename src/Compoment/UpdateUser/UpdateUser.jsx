@@ -9,7 +9,7 @@ export default function UpdateUser() {
   const navigate = useNavigate();
   const [errMsg, setErrMsg] = useState('');
   let { id } = useParams();
-const formik
+let formik
   useEffect(() => {
     axios
       .get(`https://dummyapi.io/data/v1/user/${id}`, {
